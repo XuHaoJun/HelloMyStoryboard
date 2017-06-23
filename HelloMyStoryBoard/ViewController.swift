@@ -20,6 +20,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // Method for Unwind
+    @IBAction func backToRoot(_ segue:UIStoryboardSegue) {
+        NSLog("gackToRoot executed.")
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as? YellowViewController;
+        vc?.targetDate = Date()
+    }
+    
+    @IBAction func goGreenButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "goGreen", sender: nil)
+    }
+    
 }
 

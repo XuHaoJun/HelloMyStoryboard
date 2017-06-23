@@ -12,6 +12,7 @@
 		154E4B031EFB9DCF00F94205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154E4B011EFB9DCF00F94205 /* Main.storyboard */; };
 		154E4B051EFB9DCF00F94205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154E4B041EFB9DCF00F94205 /* Assets.xcassets */; };
 		154E4B081EFB9DCF00F94205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154E4B061EFB9DCF00F94205 /* LaunchScreen.storyboard */; };
+		154E4B101EFBA6B900F94205 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4B0F1EFBA6B900F94205 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		154E4B041EFB9DCF00F94205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		154E4B071EFB9DCF00F94205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		154E4B091EFB9DCF00F94205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154E4B0F1EFBA6B900F94205 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				154E4AFD1EFB9DCE00F94205 /* AppDelegate.swift */,
 				154E4AFF1EFB9DCE00F94205 /* ViewController.swift */,
 				154E4B011EFB9DCF00F94205 /* Main.storyboard */,
+				154E4B0F1EFBA6B900F94205 /* YellowViewController.swift */,
 				154E4B041EFB9DCF00F94205 /* Assets.xcassets */,
 				154E4B061EFB9DCF00F94205 /* LaunchScreen.storyboard */,
 				154E4B091EFB9DCF00F94205 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				154E4B001EFB9DCE00F94205 /* ViewController.swift in Sources */,
+				154E4B101EFBA6B900F94205 /* YellowViewController.swift in Sources */,
 				154E4AFE1EFB9DCE00F94205 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
